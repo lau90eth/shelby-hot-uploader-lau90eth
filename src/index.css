@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply w-full bg-[#FF6B9D] hover:bg-[#FF5A8F] text-white font-semibold py-3 px-6 rounded-xl transition-all shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-3 px-6 rounded-xl transition-all border border-gray-200;
+  }
+  
+  .input-field {
+    @apply w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#FF6B9D] focus:border-transparent transition-all;
+  }
+  
+  .upload-zone {
+    @apply border-2 border-dashed border-gray-300 rounded-xl p-8 text-center cursor-pointer transition-all hover:border-[#FF6B9D] hover:bg-pink-50 bg-gray-50;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-lg border border-gray-100 p-6;
+  }
+}
