@@ -1,0 +1,11 @@
+import { AptosWalletAdapterProvider } from "@aptos-labs/wallet-adapter-react";
+import { ReactNode } from "react";
+
+
+export const WalletProvider = ({ children }: { children: ReactNode }) => {
+  return (
+    <AptosWalletAdapterProvider plugins={wallets} autoConnect={false}>
+      {children}
+    </AptosWalletAdapterProvider>
+  );
+};
