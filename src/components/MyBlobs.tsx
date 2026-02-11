@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { File, ExternalLink, Copy, Trash2, Clock, HardDrive, Search } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { formatFileSize, getExplorerLink } from '../utils/shelby-real';
-import { AutoTestRead } from './AutoTestRead';
 import type { UploadedBlob } from '../types';
 
 export const MyBlobs = () => {
@@ -130,7 +129,6 @@ export const MyBlobs = () => {
                       <p className="text-xs text-gray-500 mt-3">Transaction</p>
                       <p className="font-mono text-sm text-gray-700 break-all">{blob.transactionHash}</p>
                     </div>
-                    <AutoTestRead blobUrl={blob.url} autoStart={false} />
                   </div>
                 </motion.div>
               )}
