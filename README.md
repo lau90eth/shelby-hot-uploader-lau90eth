@@ -8,7 +8,11 @@ Built by **Lau90eth**.
 
 ## Live Demo
 
-https://shelby-hot-uploader-lau90eth.vercel.app
+https://shelby-hot-uploader.netlify.app
+
+## Important Safety Note
+
+Since this is a testnet demo on Shelbynet, if you're concerned about wallet security, please create a brand new wallet just for testing. Do not use your main wallet with real funds.
 
 ## Features
 
