@@ -104,4 +104,4 @@ Built by Lau90eth
 Thanks to Aptos & Shelby community for support
 
 ⭐ Star & fork welcome!
-https://github.com/lau90eth/shelby-hot-uploader-final
+
