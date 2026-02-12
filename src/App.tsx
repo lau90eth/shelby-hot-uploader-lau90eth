@@ -103,8 +103,7 @@ function App() {
           </div>
           <div className="flex items-center gap-4">
             <a href="https://github.com/lau90eth" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-900"><Github className="w-5 h-5" /></a>
-            <a href="https://x.com/lau90eth" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400"><Twitter className="w-5 h-5" /></a>
-            <a href="https://discord.gg/shelby" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-500"><MessageCircle className="w-5 h-5" /></a>
+            <a href="https://x.com/lau_6669" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400"><Twitter className="w-5 h-5" /></a>
           </div>
         </div>
       </footer>
